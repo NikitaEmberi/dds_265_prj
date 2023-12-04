@@ -478,6 +478,21 @@ video {
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
 }
+.container {
+  width: 100%;
+}
+@media (min-width: 1481px) {
+
+  .container {
+    max-width: 1481px;
+  }
+}
+@media (min-width: 1536px) {
+
+  .container {
+    max-width: 1536px;
+  }
+}
 .fixed {
   position: fixed;
 }
@@ -550,6 +565,9 @@ video {
 .mt-\[4em\] {
   margin-top: 4em;
 }
+.block {
+  display: block;
+}
 .flex {
   display: flex;
 }
@@ -558,9 +576,6 @@ video {
 }
 .h-200p {
   height: 200px;
-}
-.h-250p {
-  height: 250px;
 }
 .h-40p {
   height: 40px;
@@ -571,11 +586,9 @@ video {
 .h-5p {
   height: 5px;
 }
-
 .h-720p {
   height: 720px;
 }
-
 .h-full {
   height: 100%;
 }
